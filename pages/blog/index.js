@@ -1,11 +1,16 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import {postsList} from './list';
+import {postsList} from '../../lib/list';
 import styles from '../../styles/Blog.module.css';
 
 export default function Blog(props) {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>the runtime</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <main className={styles.main}>
         <Link href="/">
           <a>
