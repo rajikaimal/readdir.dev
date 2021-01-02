@@ -20,14 +20,15 @@ export default function Home() {
         <p className={styles.intro}>
           Rajika is a Software Engineer currently working at{' '}
           <a className={styles.work} href="http://99x.io/">
-            {' '}
-            99x{' '}
+            99x
           </a>
           <br />
           He has contributed to multiple open source projects <br /> and has a
           knack {''}
-          for building Developer Tooling infrastructure to <br /> improve
-          DX
+          for building Developer Tooling infrastructure to <br /> improve {''}
+          <a className={styles.dx} href="https://dev.to/stereobooster/developer-experience-how-i-missed-it-before-47go">
+            DX
+          </a>
         </p>
 
         <div className={styles.grid}>
@@ -58,7 +59,10 @@ export default function Home() {
           <Link href="https://github.com/rajikaimal/inq-notes">
             <a className={styles.card}>
               <h3>📮 Notes &rarr;</h3>
-              <p>View my notes written with Inq CLI</p>
+              <p>
+                View my notes written with Inq CLI, I take down notes in
+                different areas
+              </p>
             </a>
           </Link>
         </div>

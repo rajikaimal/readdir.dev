@@ -6,20 +6,24 @@ const projectList = () => {
   return [
     {
       link: 'https://github.com/leopardslab/nodecloud',
-      name: 'NodeCloud',
+			name: 'leopardslab/nodecloud',
     },
     {
       link: 'https://github.com/99x/react-scaffolder/',
-      name: 'React Scaffolder',
+			name: '99x/react-scaffolder',
     },
     {
       link: 'https://github.com/rajikaimal/flux-cli',
-      name: 'Flux CLI',
+			name: 'rajikaimal/flux-cli',
+    },
+    {
+      link: 'https://github.com/leopardslab/ukiyo',
+			name: 'leopardslab/ukiyo (contributor)',
     },
 
     {
       link: 'https://github.com/rajikaimal/awesome-express',
-      name: 'Awesome Express',
+			name: 'rajikaimal/awesome-express',
     },
   ];
 };
