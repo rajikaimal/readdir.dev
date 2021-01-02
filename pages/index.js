@@ -48,7 +48,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/talks">
+          <Link href="/projects">
             <a className={styles.card}>
               <h3>💻 Projects &rarr;</h3>
               <p>Open Source projects I've contributed</p>
