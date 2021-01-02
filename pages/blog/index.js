@@ -18,16 +18,14 @@ export default function Blog(props) {
           </a>
         </Link>
 
-        <p className={styles.description}>Blog</p>
-        <div className={styles.grid}>
-          {postsList.map(post => (
-            <Link key={post.path} href={`blog/${post.path}`}>
-              <a className={styles.card}>
-                <p>{post.title}</p>
-              </a>
-            </Link>
-          ))}
-        </div>
+        <p className={styles.list}>Blog</p>
+        {postsList.map(post => (
+          <Link key={post.path} href={`blog/${post.path}`}>
+						<a className={styles.post}>
+              <li>{post.title}</li>
+            </a>
+          </Link>
+        ))}
       </main>
     </div>
   );
