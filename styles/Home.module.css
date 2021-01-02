@@ -67,6 +67,20 @@
   color: #0070f3;
 }
 
+.work {
+  color: #0070f3;
+}
+
+.intro {
+  font-size: 1.1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.intro:hover {
+  transform: scale(1.1);
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -81,9 +95,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 800px;
-  margin-top: 3rem;
 }
 
 .card {
@@ -124,5 +136,11 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
   }
 }
