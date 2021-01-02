@@ -19,7 +19,7 @@ export default function Home() {
 
         <p className={styles.intro}>
           Rajika is a Software Engineer currently working at{' '}
-          <a class="work" href="http://99x.io/">
+          <a className={styles.work} href="http://99x.io/">
             {' '}
             99x{' '}
           </a>
@@ -55,10 +55,10 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/talks">
+          <Link href="https://github.com/rajikaimal/inq-notes">
             <a className={styles.card}>
-              <h3>📮 Newsletter &rarr;</h3>
-              <p>Subcribe to my Newsletter</p>
+              <h3>📮 Notes &rarr;</h3>
+              <p>View my notes written with Inq CLI</p>
             </a>
           </Link>
         </div>

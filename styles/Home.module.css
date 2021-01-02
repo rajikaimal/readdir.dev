@@ -68,17 +68,12 @@
 }
 
 .work {
-  color: #0070f3;
+  color: #ff615a;
 }
 
 .intro {
   font-size: 1.1rem;
   text-align: center;
-  transition: transform 0.2s;
-}
-
-.intro:hover {
-  transform: scale(1.1);
 }
 
 .code {
