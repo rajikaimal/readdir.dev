@@ -6,24 +6,31 @@ const projectList = () => {
   return [
     {
       link: 'https://github.com/leopardslab/nodecloud',
-			name: 'leopardslab/nodecloud',
+      name: 'leopardslab/nodecloud',
     },
     {
       link: 'https://github.com/99x/react-scaffolder/',
-			name: '99x/react-scaffolder',
+      name: '99x/react-scaffolder',
     },
     {
       link: 'https://github.com/rajikaimal/flux-cli',
-			name: 'rajikaimal/flux-cli',
+      name: 'rajikaimal/flux-cli',
+    },
+    {
+      link: 'https://github.com/rajikaimal/inq',
+      name: 'rajikaimal/inq',
+    },
+    {
+      link: 'https://www.rambase.com/',
+      name: 'rambase (output)',
     },
     {
       link: 'https://github.com/leopardslab/ukiyo',
-			name: 'leopardslab/ukiyo (contributor)',
+      name: 'leopardslab/ukiyo (contributor)',
     },
-
     {
       link: 'https://github.com/rajikaimal/awesome-express',
-			name: 'rajikaimal/awesome-express',
+      name: 'rajikaimal/awesome-express',
     },
   ];
 };
