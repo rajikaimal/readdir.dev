@@ -26,8 +26,21 @@ export default function Home() {
           He has contributed to multiple open source projects <br /> and has a
           knack {''}
           for building Developer Tooling infrastructure to <br /> improve {''}
-          <a className={styles.dx} href="https://dev.to/stereobooster/developer-experience-how-i-missed-it-before-47go">
+          <a
+            className={styles.dx}
+            href="https://dev.to/stereobooster/developer-experience-how-i-missed-it-before-47go">
             DX
+          </a>
+          <br />
+          <br />
+          A Calisthenics enthusiast and an MMA fan
+          <br />
+          <br />
+          My favourite{' '}
+          <a
+            className={styles.dx}
+					href="/conor-quote.png">
+            quote
           </a>
         </p>
 
