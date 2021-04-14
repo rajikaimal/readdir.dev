@@ -45,6 +45,7 @@
 
 .post {
   transition: transform 0.2s;
+  padding-top: 0.5rem;
 }
 
 .post:hover {
