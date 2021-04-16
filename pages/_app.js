@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import App from 'next/app';
+import Providers from "../components/Providers";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props;
+    return (
+      <Providers>
+        <Component {...pageProps} />
+      </Providers>
+    );
+  }
 }
 
-export default MyApp
+export default MyApp;
