@@ -21,8 +21,8 @@ function HomeComponent({ className }) {
 
           <p className={styles.intro}>
             Rajika is a Software Engineer currently working at{" "}
-            <a className={styles.work} href="http://99x.io/">
-              99x
+            <a className={styles.work} href="http://workclass.co/">
+              WorkClass Singapore
             </a>
             <br />
             He has contributed to multiple open source projects <br /> and has a
