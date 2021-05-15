@@ -8,6 +8,7 @@ const RuntimeHead = (props) => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={props.title && `- ${props.title}`} />
       <meta property="og:image" content="https://theruntime.xyz/meta-img.png" />
+      <meta property="twitter:image" content="https://theruntime.xyz/meta-img.png" />
       <meta name="twitter:card" content={props.title && `- ${props.title}`} />
     </Head>
   );
