@@ -1,7 +1,7 @@
 import React from "react";
 import matter from "gray-matter";
 import Link from "next/link";
-import Head from "next/head";
+import RuntimeHead from "../../components/Head";
 import ReactMarkdown from "react-markdown";
 import styles from "../../styles/Slug.module.css";
 import styled from "styled-components";
@@ -13,10 +13,7 @@ function PostTemplateComponent({ className, content, data }) {
   return (
     <div className={className}>
       <div className={styles.container}>
-        <Head>
-          <title>the runtime</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <RuntimeHead title={frontmatter.title} />
 
         <main className={styles.main}>
           <Link href="/">

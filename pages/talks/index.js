@@ -1,4 +1,4 @@
-import Head from "next/head";
+import RuntimeHead from "../../components/Head";
 import Link from "next/link";
 import styles from "../../styles/Talks.module.css";
 import styled from "styled-components";
@@ -20,10 +20,7 @@ function TalksComponent(props) {
   return (
     <div className={props.className}>
       <div className={styles.container}>
-        <Head>
-          <title>the runtime</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <RuntimeHead title="talks" />
 
         <main className={styles.main}>
           <Link href="/">
@@ -35,11 +32,11 @@ function TalksComponent(props) {
           <p className={styles.list}>Talks</p>
           {talksList().map((talk) => {
             return (
-              <Link key={talk.link} href={talk.link}>
+              <a key={talk.link} href={talk.link} target="_blank" rel="noopener noreferrer">
                 <a className={styles.talk}>
                   <li>{talk.name}</li>
                 </a>
-              </Link>
+              </a>
             );
           })}
         </main>

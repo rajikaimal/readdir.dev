@@ -1,4 +1,4 @@
-import Head from "next/head";
+import RuntimeHead from "../../components/Head";
 import Link from "next/link";
 import styles from "../../styles/Projects.module.css";
 import styled from "styled-components";
@@ -40,10 +40,7 @@ function ProjectsComponent(props) {
   return (
     <div className={props.className}>
       <div className={styles.container}>
-        <Head>
-          <title>the runtime</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <RuntimeHead title="projects" />
 
         <main className={styles.main}>
           <Link href="/">

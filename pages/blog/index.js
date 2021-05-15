@@ -1,4 +1,4 @@
-import Head from "next/head";
+import RuntimeHead from "../../components/Head";
 import Link from "next/link";
 import { postsList } from "../../lib/list";
 import styles from "../../styles/Blog.module.css";
@@ -8,10 +8,7 @@ function BlogComponent(props) {
   return (
     <div className={props.className}>
       <div className={styles.container}>
-        <Head>
-          <title>the runtime</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <RuntimeHead title="blog" />
 
         <main className={styles.main}>
           <Link href="/">
