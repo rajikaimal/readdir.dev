@@ -14,12 +14,8 @@ const RuntimeHead = (props) => {
       <meta name="twitter:title" content={props.title} />
       <meta name="twitter:description" content={props.title} />
       <meta
-        property="twitter:image"
-        content="https://theruntime.xyz/meta-img.png"
-      />
-      <meta
         name="twitter:image"
-        content=" http://euro-travel-example.com/thumbnail.jpg"
+        content="https://theruntime.xyz/meta-img.png"
       />
       <meta name="twitter:card" content="summary" />
     </Head>
