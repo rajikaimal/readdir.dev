@@ -10,6 +10,24 @@ function HomeComponent({ className }) {
         <Head>
           <title>the runtime</title>
           <link rel="icon" href="/favicon.ico" />
+
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "http://schema.org",
+                "@type": "Person",
+                email: "mailto:inbox.rajika@gmail.com",
+                image: "https://theruntime.xyz/profile_pic.jpeg",
+                jobTitle: "Software Engineer",
+                name: "Rajika Imal",
+                url: "https://theruntime.xyz",
+                sameAs: [
+                  "https://github.com/rajikaimal"
+                ]
+              }),
+            }}
+          />
         </Head>
 
         <main className={styles.main}>
