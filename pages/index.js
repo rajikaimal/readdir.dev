@@ -58,7 +58,7 @@ function HomeComponent({ className }) {
             <br />
             <br />
             My favourite{" "}
-            <a className={styles.dx} href="/conor-quote.png">
+            <a className={styles.dx} href="/conor-quote.webp">
               quote
             </a>
           </p>
