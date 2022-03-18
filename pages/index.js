@@ -38,10 +38,7 @@ function HomeComponent({ className }) {
           </p>
 
           <p className={styles.intro}>
-            Rajika is a Software Engineer currently working at{" "}
-            <a className={styles.work} href="http://workclass.co/">
-              WorkClass Singapore
-            </a>
+            Rajika is a Software Engineer who loves Tooling and Platform Engineering
             <br />
             He has contributed to multiple open source projects <br /> and has a
             knack {""}
