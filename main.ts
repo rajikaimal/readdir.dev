@@ -3,7 +3,7 @@ import blog, { ga, redirects } from "https://deno.land/x/blog@0.3.3/blog.tsx";
 blog({
   title: "theruntime.dev",
   author: "Rajika Imal",
-  cover: "./profile_pic.png",
+  cover: "./profile_pic.jpeg",
   background: "#f9f9f9",
 
   middlewares: [
