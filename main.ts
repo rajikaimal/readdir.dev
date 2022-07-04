@@ -5,6 +5,7 @@ blog({
   author: "Rajika Imal",
   cover: "./profile_pic.jpeg",
   background: "#f9f9f9",
+  avatarClass: "full",
 
   middlewares: [
     redirects({
