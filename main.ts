@@ -6,6 +6,10 @@ blog({
   avatar: "./profile_pic.jpeg",
   avatarClass: "full",
   background: "#f9f9f9",
+  links: [
+    { title: "Email", url: "mailto:inbox.rajika@gmail.com" },
+    { title: "GitHub", url: "https://github.com/rajikaimal" },
+  ],
 
   middlewares: [
     redirects({
