@@ -1,5 +1,5 @@
 ---
-title: "Optimizing the developement workflow with LLMs"
+title: "Optimizing the dev workflow with LLMs"
 publish_date: "2023-04-01"
 ---
 
