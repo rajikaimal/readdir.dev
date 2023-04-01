@@ -1,6 +1,6 @@
 ---
 title: "Go concurrency - WaitGroups"
-publish_date: "2023-04-01"
+publish_date: 2023-04-01
 ---
 
 The WaitGroup in Go lang is a synchronization mechanism used to coordinate a group of goroutines by waiting for them to complete their execution before proceeding further.

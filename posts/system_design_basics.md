@@ -1,6 +1,6 @@
 ---
 title: "System Design - Back To Basics"
-publish_date: "2020-10-18"
+publish_date: 2020-10-18
 ---
 
 ## What we'll look into

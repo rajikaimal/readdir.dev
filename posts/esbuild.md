@@ -1,6 +1,6 @@
 ---
 title: "esbuild"
-publish_date: "2021-04-14"
+publish_date: 2021-04-14
 ---
 
 [esbuild](https://esbuild.github.io/) is a new JavaScript bundler written in Go. According to the claims made by the author it is faster than most of the bundlers in multiples of magnitutude. To be fair it should be as it's written in Go, which should execute faster than other bundlers wrtten in JavaScript/TypeScript.

@@ -1,16 +1,18 @@
-import blog, { ga, redirects } from "https://deno.land/x/blog@0.3.3/blog.tsx";
+import blog, { ga, redirects } from "https://deno.land/x/blog@0.5.0/blog.tsx";
 
 blog({
   title: "theruntime.dev",
   author: "Rajika Imal",
-  avatar: "./profile_pic.jpeg",
+  avatar: "./profile_pic.png",
   avatarClass: "full",
-  background: "#f9f9f9",
   links: [
     { title: "Email", url: "mailto:inbox.rajika@gmail.com" },
     { title: "GitHub", url: "https://github.com/rajikaimal" },
+    { title: "Twitter", url: "https://twitter.com/rajikaimal" },
   ],
-
+  lang: "en",
+  dateFormat: (date) =>
+    new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(date),
   middlewares: [
     redirects({
       "system_design_basics.html": "/system_design_basics",

@@ -1,8 +1,8 @@
 ---
 title: "dotfiles"
-publish_date: "2022-10-07"
+publish_date: 2022-10-07
 ---
 
 ⚠️ Use with caution <b>WIP</b> ⚠️
 
-My revamped [dotfiles](https://github.com/rajikaimal/dotfiles). 
+My revamped [dotfiles](https://github.com/rajikaimal/dotfiles).
