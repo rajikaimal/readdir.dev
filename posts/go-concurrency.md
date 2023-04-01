@@ -61,4 +61,4 @@ func main() {
 }
 ```
 
-This would work, however it's not scalable as the concurrent function needs to be aware of the the waitGroup and can't be run without a Go routine.
+This would work, however it's not scalable as the concurrent function needs to be aware of the the waitGroup and can't be run without a waitGroup.
