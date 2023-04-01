@@ -13,7 +13,7 @@ I've started producing more output in a meaningful manner with these tools.
 - Unit tests.
 - Optimizing functions
 
-# GitHub Copilot
+## GitHub Copilot
 
 - Boilerplate code
 - Straighforward function logic suggestions (I guess this is part of boilerplate code?)
