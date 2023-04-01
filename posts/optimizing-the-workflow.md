@@ -11,7 +11,7 @@ I've started producing more output in a meaningful manner with these tools.
 - Helps to find answers directly without navigating links. However as a developer you can't
   blindly trust LLMs. This is where you come in as a the human interpreter of the results.
 - Unit tests.
-- Regex (HUGE!)
+- [Regex](https://twitter.com/davidbyttow/status/1639679641161015301) (HUGE!)
 - Optimizing functions
 
 ## GitHub Copilot
