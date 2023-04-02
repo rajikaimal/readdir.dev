@@ -21,3 +21,5 @@ I've started producing more output in a meaningful manner with these tools.
 - Drafting complex functions
 
 Pretty excited about [Copilot X](https://www.youtube.com/watch?v=4RfD5JiXt3A).
+
+[Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/#)
