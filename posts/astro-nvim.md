@@ -17,3 +17,6 @@ Alternatives?
 - [LazyVim](https://www.lazyvim.org/)
 - [LunarVim](https://www.lunarvim.org/)
 - [Zed](https://zed.dev/) seems promising too, but their VIM bindings are not complete yet
+
+
+![alt text](astronvim.png "astronvim")
