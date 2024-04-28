@@ -1,4 +1,4 @@
-# theruntime.dev
+# readdir.dev
 
 ![Alt text](posts/screenshot.png?raw=true "Title")
 

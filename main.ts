@@ -2,7 +2,7 @@ import blog, { ga, redirects } from "https://deno.land/x/blog@0.7.0/blog.tsx";
 import { UNOCSS_OPTS } from "./unocss.ts";
 
 blog({
-  title: "theruntime.dev",
+  title: "readdir.dev",
   author: "Rajika Imal",
   avatar: "./profile_pic.png",
   avatarClass: "full",
