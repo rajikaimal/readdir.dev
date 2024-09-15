@@ -1,6 +1,6 @@
 ---
 title: "Back to basics: Go - Linked List"
-publish_date: 2023-04-10
+publishedAt: 2023-04-10
 ---
 
 A basic implementation of a LinkedList in Go.

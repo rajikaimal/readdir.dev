@@ -1,6 +1,6 @@
 ---
 title: "Switching to AstroNvim"
-publish_date: 2023-04-03
+publishedAt: 2023-04-03
 ---
 
 I'm switching to [AstroNvim](https://astronvim.com/) from VS Code.
@@ -18,5 +18,4 @@ Alternatives?
 - [LunarVim](https://www.lunarvim.org/)
 - [Zed](https://zed.dev/) seems promising too, but their VIM bindings are not complete yet
 
-
-![alt text](astronvim.png "astronvim")
+![alt text](/img/astronvim.png "astronvim")

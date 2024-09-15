@@ -1,6 +1,6 @@
 ---
 title: "⚡ State of front-end tooling and infra"
-publish_date: 2023-04-28
+publishedAt: 2023-04-28
 ---
 
 ## 🤔 Why should I care about tooling and infra?

@@ -1,6 +1,6 @@
 ---
 title: "Optimizing the dev workflow with LLMs"
-publish_date: 2023-04-01
+publishedAt: 2023-04-01
 ---
 
 I'm extremely bullish on being more productive with LLMs such as ChatGPT and GitHub Copilot.

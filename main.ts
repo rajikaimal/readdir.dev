@@ -1,24 +1,13 @@
-import blog, { ga, redirects } from "https://deno.land/x/blog@0.5.0/blog.tsx";
+/// <reference no-default-lib="true" />
+/// <reference lib="dom" />
+/// <reference lib="dom.iterable" />
+/// <reference lib="dom.asynciterable" />
+/// <reference lib="deno.ns" />
 
-blog({
-  title: "theruntime.dev",
-  author: "Rajika Imal",
-  avatar: "./profile_pic.png",
-  avatarClass: "full",
-  links: [
-    { title: "Email", url: "mailto:inbox.rajika@gmail.com" },
-    { title: "GitHub", url: "https://github.com/rajikaimal" },
-    { title: "Twitter", url: "https://twitter.com/rajikaimal" },
-  ],
-  lang: "en",
-  dateFormat: (date) =>
-    new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(date),
-  middlewares: [
-    redirects({
-      "system_design_basics.html": "/system_design_basics",
-      "functional_programming_concepts.html":
-        "/functional_programming_concepts",
-      "esbuild.html": "/esbuild",
-    }),
-  ],
-});
+import "$std/dotenv/load.ts";
+
+import { start } from "$fresh/server.ts";
+import manifest from "./fresh.gen.ts";
+import config from "./fresh.config.ts";
+
+await start(manifest, config);

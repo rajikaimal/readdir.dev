@@ -1,6 +1,6 @@
 ---
 title: "What's your value proposition as an Engineer?"
-publish_date: 2023-04-16
+publishedAt: 2023-04-16
 ---
 
 Types of engineers,
