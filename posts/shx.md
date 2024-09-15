@@ -1,5 +1,5 @@
 ---
-title: "tattooGPT"
+title: "shx"
 publish_date: 2024-05-05
 ---
 
