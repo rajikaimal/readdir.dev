@@ -1,5 +1,5 @@
 ---
-title: "mini-files.md"
+title: "mini-files"
 publishedAt: 2024-12-22
 ---
 
