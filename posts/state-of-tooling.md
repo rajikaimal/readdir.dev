@@ -1,5 +1,5 @@
 ---
-title: "⚡ State of front-end tooling and infra"
+title: "State of front-end tooling and infra"
 publishedAt: 2023-04-28
 ---
 
