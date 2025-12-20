@@ -4,7 +4,7 @@ publishedAt: 2025-12-19
 ---
 
 AI (LLMs) have become an essential tool for software engineers to build applications.
-We're in the era of software engineering becoming AI native engineers. In this day and age, we're orchestrating AI to build applications.
+We're in the era of software engineers becoming AI native engineers. In this day and age, we're orchestrating AI to build applications.
 
 ## What skill is most important for AI native software engineers? 
 
