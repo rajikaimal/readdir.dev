@@ -6,7 +6,7 @@ publishedAt: 2025-12-19
 AI (LLMs) have become an essential tool for software engineers to build applications.
 We're in the era of software engineers becoming AI native engineers. In this day and age, we're orchestrating AI to build applications.
 
-## What skill is most important for AI native software engineers? 
+## The shift to code review as a core competency 
 
 Code reviewing is the most important skill for AI native software engineers. AI can write a lot of code. It can review code too. But it's not perfect. This is where engineers should step as a orchestrator in the process of SDLC. While a lot of straightforward reviews can be done with AI, there are complex reviews that AI can't handle. These reviews depend on the context of the codebase, the project, and the team.
 
